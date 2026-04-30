@@ -1,0 +1,15 @@
+/* Leaflet CSS - Using custom map placeholders instead */
+
+/* Override defaults for banking-grade appearance */
+.leaflet-container {
+  font-family: inherit;
+  border-radius: var(--radius);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius);
+}
+
+.leaflet-popup-tip {
+  background: white;
+}
